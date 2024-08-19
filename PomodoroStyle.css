@@ -38,9 +38,10 @@ button:focus {
 .clock-container {
   background-color: #fff; 
   width: 350px;
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 10px 10px #37352F;
+  border: 3px solid #37352F
+  border-radius: 5px;
+  padding:5px 5px ;
+  box-shadow:  2px 2px 1px 0px  #37352F;
 }
 
 /* Display + Stop/Start/Reset Controls */
@@ -49,9 +50,9 @@ button:focus {
   font-size: 70px;
   text-align: center;
   background-color: #F1F1EF;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 3px 3px #37352F inset;
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow:  2px 2px 1px 0px #37352F inset;
 }
 
 #display-controls {
@@ -65,12 +66,12 @@ button:focus {
 #timer-label {
   font-size: 25px;
   text-align: center;
-  padding-top: 2px;
+ padding: 5px 5px;
   background-color: #F1F1EF;
-  border-radius: 10px;
+  border-radius: 5px;
   height: 40px;
   flex: 2;
-  box-shadow: 3px 3px #37352F inset;
+  box-shadow: 2px 2px 1px 0px #37352F inset;
 }
 
 #timer-ssr {
@@ -103,8 +104,8 @@ button:focus {
   text-align: center;
 /*   display: inline-block; */
   border: 2px solid #FDEBEC;
-  padding: 10px;
-  border-radius: 10px;
+ padding: 5px 5px;;
+  border-radius: 5px;
   width: 48%;
 }
 
