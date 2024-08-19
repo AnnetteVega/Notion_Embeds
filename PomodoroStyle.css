@@ -38,11 +38,11 @@ button:focus {
 .clock-container {
   border-collapse: separate;
   background-color: #fff;
-  display: flex;
+  
   width: 350px;
   color: #37352F;
   max-width: 95%
-  margin: auto;
+ 
   border: 3px solid #37352F
   border-radius: 5px;
   padding: 30px;
